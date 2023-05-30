@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 export function NewTodoForm({ onSubmit }) {
-    
   const [newItem, setNewItem] = useState("");
 
   //Make it a function as after first time running, currentToDos adds the item, then it runs it again with the first item already added in it. If its not a function, it will re-render and wipe away the first item thats added.

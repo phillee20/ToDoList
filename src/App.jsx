@@ -18,7 +18,7 @@ export default function App() {
     });
   }
 
-  //Add tick to checkbox
+  //Add ticks to checkbox
   function toggleTodo(id, completed) {
     setTodos((currentTodos) => {
       return currentTodos.map((todo) => {
