@@ -37,7 +37,7 @@ export default function App() {
     });
   }
 
-  console.log(todos);
+  //console.log(todos);
 
   //Passing the onSubmit - addToDo props to NewTodoForm below.I used destructure on newTodoForm though
   return (
